@@ -4,7 +4,7 @@ const pm2 = require('pm2');
 const instances = process.env.INSTANCES || 1;
 const serverName = process.env.SERVER_NAME || 'server';
 const maxMemory = process.env.MAX_MEMORY || '390M';
-
+//edited my thisisntmyid
 pm2.connect(function() {
   pm2.start({
     name: serverName,
